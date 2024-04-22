@@ -37,11 +37,17 @@ do
         Console.Write(pares[i] + " ");
     }
 
-    Console.WriteLine("\nNúmeros impares");
+    Console.WriteLine("\n\nNúmeros impares");
     for (int i = 0; i < contImpares; i++)
     {
         Console.Write(impares[i] + " ");
     }
+
+    Console.WriteLine("\n\nPrimeiro valor:");
+    Console.WriteLine(numeros[0]);
+
+    Console.WriteLine("\nÚltimo valor:");
+    Console.WriteLine(numeros[9]);
 
     do
     {

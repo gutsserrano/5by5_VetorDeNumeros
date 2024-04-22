@@ -15,10 +15,7 @@ do
     for (int i = 0; i < 10; i++)
     {
         numeros[i] = int.Parse(Console.ReadLine());
-    }
 
-    for (int i = 0; i < 10; i++)
-    {
         if (numeros[i] % 2 == 0)
         {
             pares[contPares] = numeros[i];
